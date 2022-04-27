@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Templete</title>
+		<style>
+	@media screen and (min-width:400px) {
+
+	}
+	@media screen and (min-width:800px){
+	 
+	}
+
+	.pai{
+	width: 100%;
+	height: auto;
+	background: #200A3F;
+	padding:3px;
+
+	/*Colocar uma altura padrão*/
+	height:300px;
+
+	/* Flex-box a partir daqui */
+	display: flex;
+}
+
+.item{
+	height:100px;
+	background:#00EC85;
+	border-radius: 3px;
+	margin:3px;
+	color: #200A3F;
+	padding:5px;
+	box-sizing: border-box;
+
+	/*flex:1;*/
+}
+
+	.item-1{
+	flex:1;
+	}
+	.item-2, .item-3{
+		flex:2;
+	}
+
+
+	</style>
+	</head>
+<body>
+	<div class="pai">
+       <div class="item item-1"> 1 </div>    
+       <div class="item item-2"> 2 </div>
+       <div class="item item-3"> 3 </div>  
+    </div>
+</body>
+</html>
